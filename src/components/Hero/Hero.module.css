@@ -1,0 +1,33 @@
+.container{
+    padding: 0rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+}
+.wrapper>img{
+    width: 30rem;
+    position: absolute;
+    bottom: 0;
+}
+.h_sides{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+.text1{
+     text-transform: uppercase;
+     font-size: 1.5rem;
+     width: min-content;
+     display: block;
+     font-size: 600;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    color: black;
+}
