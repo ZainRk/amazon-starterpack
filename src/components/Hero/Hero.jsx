@@ -23,8 +23,8 @@ const Hero = () => {
             <RiShoppingBagFill />
             <div className={css.signup}>
               <span>Best sign of offers</span>
-            </div>
             <BsArrowRight/>
+            </div>
             </div>
           </div>
         </div>
