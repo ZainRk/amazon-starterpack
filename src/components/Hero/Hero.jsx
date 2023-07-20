@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Hero.module.css'
-import Heroimg from '../../assets/hero.png'
+import HeroImg from '../../assets/hero.png'
 import {RiShoppingBagFill} from 'react-icons/ri';
 import {BsArrowRight} from 'react-icons/bs';
 
@@ -18,11 +18,11 @@ const Hero = () => {
         {/* middle side  hero image */}
         <div className={css.wrapper}>
           <div className={css.bluecircle}>
-            <img src={Heroimg} alt="" width={600} />
+            <img src={HeroImg} alt="" width={350} />
             <div className={css.cart2}>
             <RiShoppingBagFill />
             <div className={css.signup}>
-              <span>Best sign of offers</span>
+              <span>Best signup offers</span>
             <BsArrowRight/>
             </div>
             </div>

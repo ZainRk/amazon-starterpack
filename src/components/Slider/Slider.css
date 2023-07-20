@@ -1,0 +1,63 @@
+.s-container{
+    position: relative;
+}
+.s-container .swiper{
+    width: 70%;
+    height: 12rem;
+    position: unset;
+}
+.s-container .swiper-slide{
+    background: #eee82c;
+    display: flex;
+    color:black;
+    border-radius: 1px 40px ;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+.s-container .swiper-button-prev{
+    left:  6rem;
+}
+.s-container .swiper-button-next{
+    right: 6rem;
+}
+.s-container .swiper-button-prev, .s-container .swiper-button-next{
+    color: black;
+}
+.left-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name>:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.name>:nth-child(2){
+    font-size: 0.7rem;
+}
+.left-s>:nth-child(2){
+    font-weight: bold;
+    font-size: 2rem;
+}
+.left-s>:nth-child(3){
+    font-size: 0.6rem;
+    border: 1px solid var(--black);
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 2px 15px ;
+}
+.img-p{
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    bottom: -20%;
+    
+}

@@ -1,16 +1,16 @@
 .container{
-    padding: 1.5rem;
+    padding: 1rem;
     display: flex;
 }
 .logo{
     display: flex;
     align-items: center;
     flex: 1;
-    gap: 1rem;
+    gap: 0rem;
 }
 .logo>img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 5rem;
+    height: 5rem;
 }
 .logo>span{
     font-weight: 600;
@@ -24,11 +24,11 @@
 .menu{
     display: flex;
     gap: 2rem;
-    font-weight: 500;
+    font-weight: 550;
     list-style: none;
 }
 .menu>li:hover{
-    color:#fe956f;
+    color:#FE956F;
     cursor: pointer;
 }
 .search{

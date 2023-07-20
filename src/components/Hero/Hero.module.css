@@ -9,36 +9,35 @@
     align-items: baseline;
     position: relative;
 }
-.wrapper > img {
-    width: 20rem;
-    position: relative;
+.wrapper>img{
+    width: 2rem;
+    position: absolute;
     bottom: 0;
 }
-.bluecircle{
-    width: 35rem;
-    height: 35rem;
-    border-radius: 50%;
+.bluecircle{ 
+    width: 20rem;
+    height: 20rem;
+    border-radius: 110px 1px 110px;
     z-index: -99;
     position: absolute;
     bottom: 1;
-    background: linear-gradient(135.74deg, #0bb5ff 14.09%, #6dd3fe 83.81%);
+    background: linear-gradient(135.74deg, #eee82c 14.09%, #eee82c 83.81%);
 }
 .cart2{
-    position: fixed;
-    bottom: 50%;
-    left: 65%;
+    position: absolute;
+    bottom: 25%;
+    left: 90%;
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     align-items: center;
 }
 .cart2>svg{
     width: 30px;
     height: 30px;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 15px 3px 3px 15px;
     background: white;
-    border: 6px solid var(--black);
-
+    border: 2px solid #0c0c0c;
 }
 .signup{
     display: flex;
@@ -47,20 +46,21 @@
     background: white;
     padding: 8px;
     font-size: 0.8rem;
-    border-radius: 15px;
+    border-radius: 3px 15px 15px 3px;
     box-shadow: var(--shadow1);
+    border: 2px solid black
 }
 .signup>:first-child{
     display: block;
-    width: 6rem;
+    width: 5rem;
 }
 .signup>:nth-child(2)
 {
-    border-radius: 50%;
+    border-radius: 4px 4px;
     border: 1px solid skyblue;
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     padding: 5px;
     align-items: center;
 }
@@ -73,7 +73,7 @@
      font-size: 1.5rem;
      width: min-content;
      display: block;
-     font-weight: 600 ;
+     font-weight: 600;
 }
 .text2{
     display: flex;
@@ -82,8 +82,8 @@
     color: black;
 }
 .text2 > :first-child{
-    font-weight: 800;
-    font-size: 2.5rem;
+    font-weight: 600;
+    font-size: 2rem;
 }
 .text2 > :nth-child(2){
     display: block;
@@ -94,8 +94,8 @@
     text-align: right;
 }
 .traffic> :first-child{
-    font-weight: 800;
-    font-size: 2.5rem;
+    font-weight: 700;
+    font-size: 2rem;
 }
 .customers{
     display: flex;
@@ -103,7 +103,6 @@
     text-align: right;
 }
 .customers > :first-child {
-    font-weight: 800;
-    text-align: right;
-    font-size: 2.5rem;
+    font-weight: 700;
+    font-size: 2rem;
 }
