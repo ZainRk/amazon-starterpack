@@ -1,8 +1,10 @@
 import React from 'react';
-
+import css from './Virtual.module.css'
 const Virtual = () => {
   return (
-    <div>Virtual</div>
+    <div className={css.Virtual}>
+
+    </div>
   )
 };
 
