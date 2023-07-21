@@ -10,7 +10,7 @@
     background: #eee82c;
     display: flex;
     color:black;
-    border-radius: 1px 40px ;
+    border-radius: 40px 1px ;
     padding: 1rem;
     box-sizing: border-box;
     overflow: hidden;

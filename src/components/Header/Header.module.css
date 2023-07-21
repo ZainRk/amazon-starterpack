@@ -28,7 +28,7 @@
     list-style: none;
 }
 .menu>li:hover{
-    color:#FE956F;
+    color:#eee82c;
     cursor: pointer;
 }
 .search{
