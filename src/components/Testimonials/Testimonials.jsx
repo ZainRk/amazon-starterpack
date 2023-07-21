@@ -1,8 +1,8 @@
 import React from 'react';
 import css from './Testimonials.module.css';
-import Hero from '../../assets/testimonialHero.png'
-import {Swiper,  SwiperSlide} from 'swiper/react';
-import {TestimonialsData} from '../../data/testimonials'
+import Hero from '../../assets/testimonialHero.png';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import {TestimonialsData} from '../../data/testimonials';
 
 const Testimonials = () => {
   return (
