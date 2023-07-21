@@ -1,0 +1,36 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+
+}
+.wrapper{
+    display: grid;
+    align-items: flex-end;
+    width: 90%;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.wrapper>img{
+    width: 20rem;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container>:nth-child(1){
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+}
+.container>:nth-child(2){
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    display: block;
+}
+.wrapper>:nth-child(3){
+    text-align: right;
+}
