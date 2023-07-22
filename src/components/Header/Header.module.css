@@ -44,3 +44,20 @@
     height: 1.5rem;
     cursor: pointer;
 }
+@media screen and (max-width:640px) {
+    .right{
+        position: absolute;
+        right: 2rem;
+        z-index: 9999;
+        background: white;
+        color: var(--black);
+        border-radius: 5px;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .menu{
+        flex-direction: column;
+        margin-left: -2rem;
+    }
+    
+}
