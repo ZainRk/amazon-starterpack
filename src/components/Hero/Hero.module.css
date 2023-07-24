@@ -1,0 +1,107 @@
+.container{
+    padding: 0rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+}
+.wrapper>img{
+    width: 20rem;
+    position: absolute;
+    bottom: 0;
+}
+.bluecircle{ 
+    width: 20rem;
+    height: 20rem;
+    border-radius: 110px 1px 110px;
+    z-index: -99;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(135.74deg, #eee82c 14.09%, #eee82c 83.81%);
+}
+.cart2{
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.cart2>svg{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px 1px 1px 20px;
+    background: white;
+    border: 4px solid #070707;
+}
+.signup{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    padding: 8px;
+    font-size: 0.8rem;
+    border-radius: 1px 20px  20px 1px;
+    box-shadow: var(--shadow1);
+    border: 4px solid black;
+}
+.signup>:first-child{
+    display: block;
+}
+.signup>:nth-child(2)
+{
+    border-radius: 1px 10px 10px 1px;
+    border: 1px solid #060606;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    align-items: center;
+}
+.h_sides{
+    display: grid;
+    grid-template-rows:  1fr 1fr;
+}
+.text1{
+     text-transform: uppercase;
+     font-size: 1.5rem;
+     width: min-content;
+     display: block;
+     font-weight: 600;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    color: black;
+}
+.text2 > :first-child{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.text2 > :nth-child(2){
+    display: block;
+}
+.traffic{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.traffic> :first-child{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.customers > :first-child {
+    font-weight: 700;
+    font-size: 2rem;
+}

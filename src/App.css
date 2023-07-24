@@ -1,13 +1,15 @@
 :root{
-  --black: #343434;
-  --bg: #F8E367;
+  --black: black;
+  --bg: #7db8b4;
   --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
   --shadow2:  0px 13px 46px rgba(0, 0, 0, 0.13);
   --pink: #FE956F;
+  --yellow: #eee82c;
 }
 .App{
   display: flex;
   flex-direction: column;
+  color: black;
 }
 ::-webkit-scrollbar{
   height: 12px;
@@ -15,12 +17,12 @@
   }
   
   ::-webkit-scrollbar-track{
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(250, 247, 247);
   border-radius: 1ex;
   }
   
   ::-webkit-scrollbar-thumb{
-  background: skyblue;
+  background: rgb(237, 240, 241);
   border-radius: 1ex;
   }
 
