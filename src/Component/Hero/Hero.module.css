@@ -1,0 +1,200 @@
+.container {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+/* {midel side } */
+.wraper {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+}
+
+.wraper>img {
+    width: 30rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.clueCricle {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: -99;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(135.74deg, #0bb5ff 14.09%, #6dd3fe 83.81%);
+}
+
+.card2 {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card2>svg {
+    width: 30px;
+    height: 30px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 6px solid var(--black);
+}
+
+.signup {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow1);
+}
+
+.signup>:first-child {
+    display: block;
+    width: 6rem;
+
+}
+
+.signup>:nth-child(2) {
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* {left side} */
+.h_side {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: min-content;
+    display: block;
+    font-weight: 600;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    color: black;
+}
+
+.text2>:first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.text2>:last-child {
+    display: block;
+}
+
+.traffic {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.traffic>:first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.customer>:first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:856px) {
+
+    .text1,
+    .text2>span:nth-of-type(2) {
+        font-size: .9rem;
+        text-align: justify;
+    }
+
+    .text1>span:nth-of-type(1),
+    .traffic>span:nth-of-type(1),
+    .customer>span:nth-of-type(1) {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .clueCricle {
+        position: absolute;
+        width: 70%;
+        height: 100%;
+    }
+
+    .wraper>img {
+        width: 70%;
+        height: 100%;
+    }
+
+    .container {
+        grid-template-areas:
+            'left center center'
+            'right right right';
+    }
+
+    .container>:first-child {
+        grid-area: left;
+        grid-template-rows: none;
+        gap: 8rem;
+    }
+
+    .container>:nth-child(2) {
+        grid-area: center;
+    }
+
+    .container>:nth-child(3) {
+        grid-area: right;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}
+
+@media screen and (max-width:640px) {
+    .clueCricle {
+        top: 0;
+        width: 16rem;
+        height: 72%;
+    }
+
+    .wraper>img {
+        top: 3rem;
+        width: 12rem;
+        height: 15rem;
+    }
+
+    .card2 {
+        transform: scale(.7);
+        right: -2rem;
+        bottom: 2rem;
+    }
+}
